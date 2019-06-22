@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanager/ModifyPwdFrame.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanager/MainFrame.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/EntityAndMethod/Data.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanagerDAL/DeleteDAL.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/EntityAndMethod/IDInformation.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanager/AddFrame.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanagerDAL/ModifyDAL.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanager/LoginFrame.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanagerBLL/SelectBLL.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanagerDAL/AddDAL.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanagerDAL/RegistDAL.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/EntityAndMethod/Method.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanagerBLL/UpdateBLL.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanager/SelectFrame.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanagerBLL/RegistBLL.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanager/RegistryFrame.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanagerDAL/UpdateDAL.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanagerBLL/AddBLL.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanager/IDManager.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanagerDAL/MainDAL.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanagerBLL/MainBLL.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanagerBLL/ModifyBLL.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanager/UpdateFrame.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanagerDAL/LoginDAL.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanagerDAL/SelectDAL.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanager/DeleteFrame.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanagerBLL/LoginBLL.java</file>
+            <file>file:/C:/Users/s7995/Documents/NetBeansProjects/IDManager/src/idmanagerBLL/DeleteBLL.java</file>
+        </group>
+    </open-files>
+</project-private>
