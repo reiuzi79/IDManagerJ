@@ -283,9 +283,11 @@ public class MainFrame extends javax.swing.JFrame {
         Data data;
         String author;
         String updateID = JOptionPane.showInputDialog("输入要更改的身份证号");
+        if(updateID == null || updateID.equals("")) return;
         updateID = updateID.toUpperCase();
         if(account.equals("admin")){
             author = JOptionPane.showInputDialog("输入要更改的身份证号的添加者");
+            if(author == null || author.equals("")) return;
         }else author = account;
         try{
             data = bll.preUpdate(updateID, author);
