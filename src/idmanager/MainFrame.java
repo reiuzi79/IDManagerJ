@@ -107,7 +107,15 @@ public class MainFrame extends javax.swing.JFrame {
             new String [] {
                 "姓名", "电话", "地址", "身份证号", "地区", "生日", "年龄", "性别", "备注"
             }
-        ));
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         jScrollPane1.setViewportView(Table);
         if (Table.getColumnModel().getColumnCount() > 0) {
             Table.getColumnModel().getColumn(0).setPreferredWidth(30);
