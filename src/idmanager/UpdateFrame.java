@@ -19,6 +19,7 @@ public class UpdateFrame extends javax.swing.JDialog {
     UpdateBLL bll = new UpdateBLL();
     String account;
     Data data;
+    String author;
     /**
      * Creates new form UpdateFrame
      */
@@ -26,8 +27,9 @@ public class UpdateFrame extends javax.swing.JDialog {
         initComponents();
     }
     
-    public UpdateFrame(Data data, String account) {
+    public UpdateFrame(Data data, String author, String account) {
         initComponents();
+        this.author = author;
         this.account = account;
         this.data = data;
         Name.setText(data.getName());
@@ -170,7 +172,7 @@ public class UpdateFrame extends javax.swing.JDialog {
             return;
         }
         try{
-            bll.add(name, data.getID(), identity, phone, address, remark, account);
+            bll.add(name, data.getID(), identity, phone, address, remark, author);
         }catch(Exception e){
             JOptionPane.showMessageDialog(this, "更改错误，错误信息：" + e.getMessage(), "错误", JOptionPane.ERROR_MESSAGE);
             return;

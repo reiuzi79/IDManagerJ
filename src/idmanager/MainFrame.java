@@ -90,9 +90,9 @@ public class MainFrame extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         setTitle("身份证管理系统0.99J");
         setAutoRequestFocus(false);
-        setMaximumSize(new java.awt.Dimension(1366, 760));
-        setMinimumSize(new java.awt.Dimension(1366, 760));
-        setPreferredSize(new java.awt.Dimension(1366, 760));
+        setMaximumSize(new java.awt.Dimension(1366, 770));
+        setMinimumSize(new java.awt.Dimension(1366, 770));
+        setPreferredSize(new java.awt.Dimension(1366, 770));
         setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowClosing(java.awt.event.WindowEvent evt) {
@@ -219,7 +219,7 @@ public class MainFrame extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
                     .addComponent(current))
-                .addContainerGap(42, Short.MAX_VALUE))
+                .addContainerGap(50, Short.MAX_VALUE))
         );
 
         pack();
@@ -295,7 +295,7 @@ public class MainFrame extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "更改错误，错误信息：" + e.getMessage(), "错误", JOptionPane.ERROR_MESSAGE);
             return;
         }
-        UpdateFrame uf = new UpdateFrame(data, author);
+        UpdateFrame uf = new UpdateFrame(data, author, account);
         uf.setModal(true);
         uf.setLocationRelativeTo(null);
         uf.setVisible(true);
