@@ -19,6 +19,8 @@ public class UpdateDAL {
         Class.forName("com.mysql.cj.jdbc.Driver");
         try (Connection conn = DriverManager.getConnection("jdbc:mysql://47.103.117.231:3306/idmanager?serverTimezone=GMT", "IDManager", "123456")) {
             Statement stmt = conn.createStatement();
+            ResultSet rs = stmt.executeQuery("select * from data where ID = '" + d.getID() + "' and Author = '" + author + "' and ID != '" + ID + "'");
+            if(rs.next()) throw new Exception("要更改的身份证号已存在！");
             stmt.executeUpdate("update data set Name = '" + d.getName() + 
                     "', Phone = '" + d.getPhone() +
                     "', Address = '" + d.getAddress() +
